@@ -8,11 +8,13 @@ Virtual Store Management for users (after authentication,) can register, change,
 ## :link: Design:
 
 ### API
-![api_schema](images/apiSchema.jpg)
+![api_schema](images/apiSchema.png)
+
 ### SQL
-![sql_schema](images/sqlSchema.jpg)
+![sql_schema](images/sqlSchema.png)
+
 ###Class
-![class_schema](images/classSchema.jpg)
+![class_schema](images/classSchema.png)
 
 [https://www.figma.com/file/K7eJzfgKeFc0UM85l2DO9C/System's-Design%3A-Virtual-store?node-id=2%3A2](See more in Figma)
 
