@@ -1,7 +1,6 @@
 # Virtual Store
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e53d894b25d9406a91b8812793d13d79)](https://www.codacy.com/gh/Lawniet/virtualstoreapi/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Lawniet/virtualstoreapi&amp;utm_campaign=Badge_Grade)
 [![GitHub license](https://img.shields.io/github/license/Lawniet/virtualstoreapi)](https://github.com/Lawniet/virtualstoreapi/blob/master/LICENSE)
-[![JWT Bagde](https://jwt.io/img/badge-compatible.svg)]
 
 ## Description
 Virtual Store Management for users (after authentication,) can register, change, delete or search for Stores, Products and stocks.
