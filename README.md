@@ -16,7 +16,7 @@ Virtual Store Management for users (after authentication,) can register, change,
 ### Class
 ![class_schema](images/classSchema.png)
 
-[https://www.figma.com/file/K7eJzfgKeFc0UM85l2DO9C/System's-Design%3A-Virtual-store?node-id=2%3A2](See more in Figma)
+[See more in Figma](https://www.figma.com/file/K7eJzfgKeFc0UM85l2DO9C/System's-Design%3A-Virtual-store?node-id=2%3A2)
 
 ## :rocket: Technologies and Principles:
 
