@@ -13,7 +13,7 @@ Virtual Store Management for users (after authentication,) can register, change,
 ### SQL
 ![sql_schema](images/sqlSchema.png)
 
-###Class
+### Class
 ![class_schema](images/classSchema.png)
 
 [https://www.figma.com/file/K7eJzfgKeFc0UM85l2DO9C/System's-Design%3A-Virtual-store?node-id=2%3A2](See more in Figma)
@@ -38,7 +38,7 @@ Before starting the project, you will need the following tools :
     - [ ] [VsCode](https://code.visualstudio.com/download);
     - [ ] [Git](https://git-scm.com/)
     - [ ] [SDK](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
-	- [ ] [Nuget](https://www.nuget.org/downloads)
+    - [ ] [Nuget](https://www.nuget.org/downloads)
 
 ### Execution
 ```bash
