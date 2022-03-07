@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Application.Utils
+{
+    public class ApplicationResponse : IApplicationResponse
+    {
+        public object Result { get; set; }
+        public bool IsValid { get; set; }
+        public List<string> Messages { get; set; }
+
+        public ApplicationResponse()
+        {
+            Messages = new List<string>();
+        }
+    }
+}
