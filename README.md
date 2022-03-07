@@ -7,7 +7,14 @@ Virtual Store Management for users (after authentication,) can register, change,
 
 ## :link: Design:
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FK7eJzfgKeFc0UM85l2DO9C%2FSystem's-Design%253A-Virtual-store%3Fnode-id%3D2%253A2" allowfullscreen></iframe>
+### API
+![api_schema](images/apiSchema.jpg)
+### SQL
+![sql_schema](images/sqlSchema.jpg)
+###Class
+![class_schema](images/classSchema.jpg)
+
+[https://www.figma.com/file/K7eJzfgKeFc0UM85l2DO9C/System's-Design%3A-Virtual-store?node-id=2%3A2](See more in Figma)
 
 ## :rocket: Technologies and Principles:
 
@@ -29,6 +36,7 @@ Before starting the project, you will need the following tools :
     - [ ] [VsCode](https://code.visualstudio.com/download);
     - [ ] [Git](https://git-scm.com/)
     - [ ] [SDK](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
+	- [ ] [Nuget](https://www.nuget.org/downloads)
 
 ### Execution
 ```bash
