@@ -5,7 +5,7 @@
 ## Description
 Virtual Store Management for users (after authentication,) can register, change, delete or search for Stores, Products and stocks.
 
-## :link: Design:
+## :rocket: API project
 
 ### API
 ![api_schema](images/apiSchema.png)
@@ -18,7 +18,7 @@ Virtual Store Management for users (after authentication,) can register, change,
 
 [See more in Figma](https://www.figma.com/file/K7eJzfgKeFc0UM85l2DO9C/System's-Design%3A-Virtual-store?node-id=2%3A2)
 
-## :rocket: Technologies and Principles:
+## :rocket: Technologies and Principles
 
 - ✔️  .NET >= 5.0;
 - ✔️  In-Memory DB;
@@ -27,21 +27,22 @@ Virtual Store Management for users (after authentication,) can register, change,
 - ✔️  Clean Code;
 - ✔️  Inheritance and Polymorphism;
 - ✔️  Entity Framework;
+- ✔️ TDD;
 - ✔️  DTOs.
 
-## :information_source: Installation
+## :information_source: How to use
 
 ### Pre Requisites
 
 Before starting the project, you will need the following tools : 
 
-    - [ ] [VsCode](https://code.visualstudio.com/download);
-    - [ ] [Git](https://git-scm.com/)
-    - [ ] [SDK](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
-    - [ ] [Nuget](https://www.nuget.org/downloads)
+- [ ] [VsCode](https://code.visualstudio.com/download);
+- [ ] [Git](https://git-scm.com/)
+- [ ] [SDK](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
+- [ ] [Nuget](https://www.nuget.org/downloads)
 
 ### Execution
-```bash
+```
 1. Clone the project in Visual Studio using this repository: $ git clone https://github.com/Lawniet/VirtualStoreApi.git
 2. Run the project in debug mode with IIS Express
 3. The application's Swagger will open
@@ -51,7 +52,7 @@ Before starting the project, you will need the following tools :
 ```
 <br>
 
-## :seedling: Developer: 
-Lauany Reis da Silva
+## :seedling: More info
+Lauany Reis da Silva:
 - LinkedIn: [https://www.linkedin.com/in/lauany-reis-da-silva/](https://www.linkedin.com/in/lauany-reis-da-silva/)
 - Github: [https://github.com/Lawniet](https://github.com/Lawniet)
