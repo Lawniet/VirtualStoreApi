@@ -21,7 +21,7 @@ namespace VirtualStoreApi
     public class Startup
     {
         private const string SECRET_KEY = "eyJhbGciOiJIUzI1NiJ9";
-        public static readonly SymmetricSecurityKey SIGNING_KEY = new(Encoding.UTF8.GetBytes(SECRET_KEY));
+        public static readonly SymmetricSecurityKey SIGNING_KEY = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(SECRET_KEY));
 
         public Startup(IConfiguration configuration)
         {
@@ -63,7 +63,7 @@ namespace VirtualStoreApi
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "VirtualStore", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "DesafioEBH", Version = "v1" });
                 c.AddSecurityDefinition("JwtBearer", new OpenApiSecurityScheme()
                 {
                     Name = "Authorization",
@@ -84,7 +84,7 @@ namespace VirtualStoreApi
                                   Id = "JwtBearer"
                               }
                           },
-                         Array.Empty<string>()
+                         new string[] {}
                     }
                 });
             });
@@ -116,7 +116,7 @@ namespace VirtualStoreApi
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "VirtualStore v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "DesafioEBH v1"));
             }
 
             app.UseHttpsRedirection();
